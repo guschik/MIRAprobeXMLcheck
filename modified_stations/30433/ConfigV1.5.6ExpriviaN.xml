@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><ConfigurationEntries>
+	<DeviceIds>
+		<IdList name="Collector">
+			<Id name="GMT-PIC">0</Id>
+			<Id name="TMP 100">1</Id>
+			<Id name="Rain Sensor">2</Id>
+			<Id name="STC3100">3</Id>
+			<Id name="GPS Module">4</Id>
+			<Id name="I/O Expander">5</Id>
+			<Id name="Empty">255</Id>
+		</IdList>
+		<IdList name="Communicator">
+			<Id name="Off (-1)">255</Id>
+			<Id name="TCP/IP: Ethernet (0)">0</Id>
+			<Id name="TCP/IP: LTE (1)">1</Id>
+			<Id name="TCP/IP: Radio (2)">2</Id>
+			<Id name="TCP/IP: RS485 (17)">17</Id>
+			<Id name="Serial: Radio (66)">66</Id>
+			<Id name="Serial: Bluetooth (82)">82</Id>
+			<Id name="Serial: RS232 (80)">80</Id>
+			<Id name="Serial: RS485 (81)">81</Id>
+		</IdList>
+	</DeviceIds>
+	<DirectoryLevels>
+		<Id name="Year">0</Id>
+		<Id name="Month">1</Id>
+		<Id name="Day">2</Id>
+		<Id name="Hour">3</Id>
+		<Id name="Minute">4</Id>
+		<Id name="Second">5</Id>
+		<Id name="Base">7</Id>
+	</DirectoryLevels>
+	<IdList name="Intervals">
+		<Id name="Custom (-1)">-1</Id>
+		<Id name="Base interval (0)">0</Id>
+		<Id name="Interval 0 (1)">1</Id>
+		<Id name="Interval 1 (2)">2</Id>
+		<Id name="Interval 2 (3)">3</Id>
+	</IdList>
+	<IdList name="GDRThresholds">
+		<Id name="0: No Thresholds">0</Id>
+		<Id name="1: High Threshold only">1</Id>
+		<Id name="2: Both Thresholds">2</Id>
+	</IdList>
+	<IdList name="StatusBits">
+		<Id name="System starting">0x00000001</Id>
+		<Id name="Service mode active">0x00000002</Id>
+		<Id name="Test Mode">0x00000004</Id>
+		<Id name="Minute timeout">0x00000008</Id>
+		<Id name="First Minute">0x00000010</Id>
+		<Id name="Test Source Detected">0x00000020</Id>
+		<Id name="Test Source Removed">0x00000040</Id>
+		<Id name="SDCard failed">0x00000080</Id>
+		<Id name="Sleep Mode Request">0x00000100</Id>
+		<Id name="Sleep Mode Imminent">0x00000200</Id>
+		<Id name="Sleep Mode">0x00000400</Id>
+		<Id name="Wake Up">0x00000800</Id>
+		<Id name="Base Interval Invalid">0x00001000</Id>
+		<Id name="Time Invalid">0x00002000</Id>
+		<Id name="Time synchronization">0x00004000</Id>
+		<Id name="Time synchronization available">0x00008000</Id>	 
+		<Id name="GPS valid fix">0x00010000</Id>	 
+		<Id name="GPS fix failed">0x00020000</Id>
+		<Id name="GPS fix available">0x00040000</Id>
+		<Id name="Moisture detected">0x00080000</Id>
+		<Id name="Communication active">0x00100000</Id>
+        <Id name="Door open">0x00200000</Id>
+		<Id name="Communication Failed">0x00800000</Id>
+		<Id name="Task Timeout">0x04000000</Id>
+		<Id name="Task Critical">0x08000000</Id>
+		<Id name="Save Request">0x10000000</Id>
+		<Id name="Permanent Test Mode">0x20000000</Id>
+		<Id name="System reset requested">0x40000000</Id>
+		<Id name="System reset imminent">0x80000000</Id>
+	</IdList>
+	<IdList name="EvalBits">
+		<Id name="Raining">0x00008000</Id>
+		<Id name="Clock Sync">0x00004000</Id>
+		<Id name="HD Overflow">0x00000800</Id>
+		<Id name="HD Minimum Criteria">0x00000400</Id>
+		<Id name="LD Minimum Criteria">0x00000200</Id>
+		<Id name="Communication Error">0x00000100</Id>
+		<Id name="HD LD Comparison Short Term">0x00000080</Id>
+		<Id name="HD LD Comparison Long Term">0x00000040</Id>
+		<Id name="Test Mode">0x00000004</Id>
+		<Id name="Interval 0: Threshold 1 crossed">0x00010000</Id>	 
+		<Id name="Interval 0: Threshold 2 crossed">0x00020000</Id>
+		<Id name="Interval 1: Threshold 1 crossed">0x00100000</Id>
+		<Id name="Interval 1: Threshold 2 crossed">0x00200000</Id>
+		<Id name="Interval 2: Threshold 1 crossed">0x01000000</Id>
+		<Id name="Interval 2: Threshold 2 crossed">0x02000000</Id>
+	</IdList>
+	<IdList name="BatteryBits">
+		<Id name="Battery Low">0x00000001</Id>
+		<Id name="Battery Serious">0x00000002</Id>
+		<Id name="Battery Critical">0x00000004</Id>
+        <Id name="External Battery Low">0x00000008</Id>
+		<Id name="Voltage Low">0x00000010</Id>
+		<Id name="Voltage Critical">0x00000020</Id>
+		<Id name="External Power Supply">0x00000080</Id>
+		<Id name="Communication Error">0x00000100</Id>
+	</IdList>
+	<IdList name="UartList">
+		<Id name="Uart 0">0</Id>
+		<Id name="Uart 2">2</Id>
+		<Id name="Uart 3">3</Id>
+		<Id name="Uart 4">4</Id>
+		<Id name="Uart 5">5</Id>
+		<Id name="disabled">-1</Id>
+	</IdList>
+	<IdList name="BaudRateList">
+		<Id name="9600">9600</Id>
+		<Id name="38400">38400</Id>
+		<Id name="115200">115200</Id>
+		<Id name="disabled (0)">0</Id>
+		<Id name="19200">19200</Id>
+		<Id name="57600">57600</Id>
+		<Id name="230400">230400</Id>
+	</IdList>
+	<IdList name="Port/SerialAH">
+		<Id name="TCPIP: Port 31000">2031616001</Id>
+		<Id name="TCPIP: Port 31001">2031681537</Id>
+		<Id name="TCPIP: Port 31002">2031747073</Id>
+		<Id name="TCPIP: Port 31003">2031812609</Id>
+		<Id name="TCPIP: Port 31111">2038890497</Id>
+		<Id name="TCPIP: Port 31140">2040791041</Id>
+		<Id name="Serial: Default">10</Id>
+		<Id name="Serial: XBeePro">1286656</Id>
+		<Id name="Serial: XBeePro (broadcast)">0</Id>
+	</IdList>
+	<IdList name="ClockModes">
+		<Id name="Low (default)">0</Id>
+		<Id name="Medium">1</Id>
+		<Id name="High">2</Id>
+	</IdList>
+	<IdList name="LogLevels">
+		<Id name="Critical (0)">0</Id>
+		<Id name="Warning (1)">1</Id>
+		<Id name="Info (2)">2</Id>
+		<Id name="Debug (3)">3</Id>
+		<Id name="Disable (-1)">-1</Id>
+	</IdList>
+	<IdList name="IOExpPins">
+		<Id name="Pin 0">0x01</Id>
+		<Id name="Pin 1">0x02</Id>
+		<Id name="Pin 2">0x04</Id>
+		<Id name="Pin 3">0x08</Id>
+		<Id name="Pin 4">0x10</Id>
+		<Id name="Pin 5">0x20</Id>
+		<Id name="Pin 6">0x40</Id>
+		<Id name="Pin 7">0x80</Id>
+	</IdList>
+	<IdList name="BTPower">
+		<Id name="16 dBm">16</Id>
+		<Id name="12 dBm">12</Id>
+		<Id name="8 dBm">8</Id>
+		<Id name="4 dBm">4</Id>
+		<Id name="0 dBm">0</Id>
+		<Id name="-4 dBm">-4</Id>
+		<Id name="-8 dBm">-8</Id>
+		<Id name="-12 dBm">-12</Id>
+	</IdList>
+	<IdList name="RadioTXPower">
+		<Id name="1 mW (0)">0</Id>
+		<Id name="23 mW (1)">1</Id>
+		<Id name="100 mW (2)">2</Id>
+		<Id name="158 mW (3)">3</Id>
+		<Id name="316 mW (4)">4</Id>
+	</IdList>
+	<IdList name="NuclideIds">
+		<Id name="Cs-137">0</Id>
+		<Id name="Eu-152">1</Id>
+	</IdList>
+	<IdList name="NuclideHalfLifes">
+		<Id name="Cs-137">1315056160</Id>
+		<Id name="Eu-152">1305166636</Id>
+	</IdList>
+	<Entry id="0x1100" name="Begin" property="internal" type="begin">116</Entry>
+	<Category name="System">
+		<Entry EntrySize="  1" id="0x5101" name="SerialNr" property="constant" type="uint16">30433</Entry>
+		<Entry EntrySize="  1" id="0x5102" name="StationId" property="user" type="uint16">30433</Entry>
+		<Entry EntrySize=" 32" id="0xc101" list="ProbeTypes" name="Probe Type" property="constant" type="string">MIRA-100-L-GR</Entry>
+		<Entry EntrySize="  1" id="0x8104" list="ClockModes" name="Minimum Clock Mode" property="constant" type="int8">0</Entry>
+		<Entry EntrySize="  1" id="0xa105" list="LogLevels" name="Log Level" property="restricted" type="int32">0</Entry>
+		<Category name="Test Modes">
+			<Entry EntrySize="  1" id="0x5103" name="Self Test Interval (min)" property="constant" type="uint16">5280</Entry>
+			<Entry id="0x3103" name="Continuous Self Test" property="user" type="bool">0</Entry>
+		</Category>
+        <Category name="Time Intervals">
+            <Entry EntrySize="  1" id="0x5700" intervalId="0" name="Base Interval" property="restricted" type="uint16">10</Entry>
+            <Entry EntrySize="  3" id="0x5701" name="Aggregation Intervals" property="restricted" type="uint16">
+                <Element editor="time" intervalId="1" name="Interval 0" property="restricted" size="1" type="uint16">60</Element>
+                <Element editor="time" intervalId="2" name="Interval 1" property="restricted" size="1" type="uint16">600</Element>
+                <Element editor="time" intervalId="3" name="Interval 2" property="restricted" size="1" type="uint16">3600</Element>
+            </Entry>
+        </Category>
+		<Category name="Task Configuration">
+			<Category name="Collector: GDR" taskSwitch="0x05a0;0">
+				<Entry EntrySize=" 22" id="0x05a0" name="TaskDefinition" property="constant" type="struct">
+					<Element name="TaskId" property="constant" size="1" type="uint8">64</Element>
+					<Element name="TaskName" property="constant" size="8" type="string">CollGDR</Element>
+					<Element intervalIndexTag="0x05a0" list="Intervals" name="Interval" property="constant" size="1" type="int8">0</Element>
+					<Element name="ExecutionTime" property="constant" size="12" type="struct">
+						<Element editor="time" name="Time Offset" property="constant" size="1" type="uint32">0</Element>
+						<Element editor="time" intervalValueTag="0x05a0" name="Repeat" property="internal" size="1" type="uint32">10</Element>
+						<Element editor="bitmask" list="StatusBits" name="Status" property="constant" size="1" type="uint32">2049</Element>
+					</Element>
+				</Entry>
+				<Entry EntrySize="  4" id="0x45a1" list="Collector" name="DeviceIds" property="constant" taskInfo="0x05a0;0" type="uint8">0 1 2 255</Entry>
+			</Category>
+			<Category name="Collector: Battery" taskSwitch="0x05a4;1">
+				<Entry EntrySize=" 22" id="0x05a4" name="TaskDefinition" property="constant" type="struct">
+					<Element name="TaskId" property="constant" size="1" type="uint8">64</Element>
+					<Element name="TaskName" property="constant" size="8" type="string">CollBat</Element>
+					<Element intervalIndexTag="0x05a4" list="Intervals" name="Interval" property="constant" size="1" type="int8">2</Element>
+					<Element name="ExecutionTime" property="constant" size="12" type="struct">
+						<Element editor="time" name="Time Offset" property="constant" size="1" type="uint32">0</Element>
+						<Element editor="time" intervalValueTag="0x05a4" name="Repeat" property="internal" size="1" type="uint32">600</Element>
+						<Element editor="bitmask" list="StatusBits" name="Status" property="constant" size="1" type="uint32">3856</Element>
+					</Element>
+				</Entry>
+				<Entry EntrySize="  4" id="0x45a5" list="Collector" name="DeviceIds" property="constant" taskInfo="0x05a4;1" type="uint8">3 255 255 255</Entry>
+			</Category>
+			<Category name="Collector: GPS" taskSwitch="0x05a8;2">
+				<Entry EntrySize=" 22" id="0x05a8" name="TaskDefinition" property="user" type="struct">
+					<Element name="TaskId" property="constant" size="1" type="uint8">96</Element>
+					<Element name="TaskName" property="constant" size="8" type="string">CollGPS</Element>
+					<Element intervalIndexTag="0x05a8" list="Intervals" name="Interval" property="constant" size="1" type="int8">-1</Element>
+					<Element name="ExecutionTime" property="user" size="12" type="struct">
+						<Element editor="time" name="Time Offset" property="user" size="1" type="uint32">58320</Element>
+						<Element editor="time" intervalValueTag="0x05a8" name="Repeat" property="user" size="1" type="uint32">86400</Element>
+						<Element editor="bitmask" list="StatusBits" name="Status" property="constant" size="1" type="uint32">459024</Element>
+					</Element>
+				</Entry>
+				<Entry EntrySize="  4" id="0x45a9" list="Collector" name="DeviceIds" property="constant" taskInfo="0x05a8;2" type="uint8">4 255 255 255</Entry>
+			</Category>
+			<Category name="Collector: I/O Expander" taskSwitch="0x05ac;3">
+				<Entry EntrySize=" 22" id="0x05ac" name="TaskDefinition" property="constant" type="struct">
+					<Element name="TaskId" property="constant" size="1" type="uint8">64</Element>
+					<Element name="TaskName" property="constant" size="8" type="string">CollIOE</Element>
+					<Element intervalIndexTag="0x05ac" list="Intervals" name="Interval" property="constant" size="1" type="int8">0</Element>
+					<Element name="ExecutionTime" property="constant" size="12" type="struct">
+						<Element editor="time" name="Time Offset" property="constant" size="1" type="uint32">0</Element>
+						<Element editor="time" intervalValueTag="0x05ac" name="Repeat" property="internal" size="1" type="uint32">10</Element>
+						<Element editor="bitmask" list="StatusBits" name="Status" property="constant" size="1" type="uint32">0</Element>
+					</Element>
+				</Entry>
+				<Entry EntrySize="  4" id="0x45ad" list="Collector" name="DeviceIds" property="constant" taskInfo="0x05ac;2" type="uint8">5 255 255 255</Entry>
+			</Category>
+			<Category name="GDR Calculation" taskSwitch="0x05c0;4">
+				<Entry EntrySize=" 22" id="0x05c0" name="TaskDefinition" property="constant" type="struct">
+					<Element name="TaskId" property="constant" size="1" type="uint8">129</Element>
+					<Element name="TaskName" property="constant" size="8" type="string">GDRCalc</Element>
+					<Element intervalIndexTag="0x05c0" list="Intervals" name="Interval" property="constant" size="1" type="int8">0</Element>
+					<Element name="ExecutionTime" property="constant" size="12" type="struct">
+						<Element editor="time" name="Time Offset" property="constant" size="1" type="uint32">0</Element>
+						<Element editor="time" intervalValueTag="0x05c0" name="Repeat" property="internal" size="1" type="uint32">10</Element>
+						<Element editor="bitmask" list="StatusBits" name="Status" property="constant" size="1" type="uint32">2048</Element>
+					</Element>
+				</Entry>
+			</Category>
+			<Category name="SD Saver" taskSwitch="0x0504;5">
+				<Entry EntrySize=" 22" id="0x0504" name="TaskDefinition" property="user" type="struct">
+					<Element name="TaskId" property="constant" size="1" type="uint8">194</Element>
+					<Element name="TaskName" property="constant" size="8" type="string">SDSaver</Element>
+					<Element intervalIndexTag="0x0504" list="Intervals" name="Interval" property="user" size="1" type="int8">1</Element>
+					<Element name="ExecutionTime" property="constant" size="12" type="struct">
+						<Element editor="time" name="Time Offset" property="constant" size="1" type="uint32">0</Element>
+						<Element editor="time" intervalValueTag="0x0504" name="Repeat" property="user" size="1" type="uint32">60</Element>
+						<Element editor="bitmask" list="StatusBits" name="Status" property="constant" size="1" type="uint32">268436993</Element>
+					</Element>
+				</Entry>
+			</Category>
+			<Category name="Battery Monitor" taskSwitch="0x0508;6">
+				<Entry EntrySize=" 22" id="0x0508" name="TaskDefinition" property="constant" type="struct">
+					<Element name="TaskId" property="constant" size="1" type="uint8">132</Element>
+					<Element name="TaskName" property="constant" size="8" type="string">BatMon</Element>
+					<Element intervalIndexTag="0x0508" list="Intervals" name="Interval" property="constant" size="1" type="int8">2</Element>
+					<Element name="ExecutionTime" property="constant" size="12" type="struct">
+						<Element editor="time" name="Time Offset" property="constant" size="1" type="uint32">0</Element>
+						<Element editor="time" intervalValueTag="0x0508" name="Repeat" property="internal" size="1" type="uint32">600</Element>
+						<Element editor="bitmask" list="StatusBits" name="Status" property="constant" size="1" type="uint32">3856</Element>
+					</Element>
+				</Entry>
+			</Category>
+			<Category name="Communicator" taskSwitch="0x05fc;7">
+				<Entry EntrySize=" 22" id="0x05fc" name="TaskDefinition" property="restricted" type="struct">
+					<Element name="TaskId" property="constant" size="1" type="uint8">227</Element>
+					<Element name="TaskName" property="constant" size="8" type="string">Comm</Element>
+					<Element intervalIndexTag="0x05fc" list="Intervals" name="Interval" property="constant" size="1" type="int8">0</Element>
+					<Element name="ExecutionTime" property="constant" size="12" type="struct">
+						<Element editor="time" name="Time Offset" property="constant" size="1" type="uint32">0</Element>
+						<Element editor="time" intervalValueTag="0x05fc" name="Repeat" property="internal" size="1" type="uint32">10</Element>
+						<Element editor="bitmask" list="StatusBits" name="Status" property="constant" size="1" type="uint32">3</Element>
+					</Element>
+				</Entry>
+			</Category>
+			<Category name="Accuracy Test" taskSwitch="0x050c;8">
+				<Entry EntrySize=" 22" id="0x050c" name="TaskDefinition" property="restricted" type="struct">
+					<Element name="TaskId" property="constant" size="1" type="uint8">197</Element>
+					<Element name="TaskName" property="constant" size="8" type="string">AccTest</Element>
+					<Element intervalIndexTag="0x050c" list="Intervals" name="Interval" property="constant" size="1" type="int8">-1</Element>
+					<Element name="ExecutionTime" property="constant" size="12" type="struct">
+						<Element editor="time" name="Time Offset" property="constant" size="1" type="uint32">4294967295</Element>
+						<Element editor="time" intervalValueTag="0x050c" name="Repeat" property="constant" size="1" type="uint32">4294967295</Element>
+						<Element editor="bitmask" list="StatusBits" name="Status" property="constant" size="1" type="uint32">96</Element>
+					</Element>
+				</Entry>
+			</Category>
+		</Category>
+	</Category>
+	<Category name="Devices">
+		<Category name="Ethernet">
+			<Entry id="0x3f02" name="UseDHCP" property="user" type="bool">0</Entry>
+			<Entry EntrySize="  3" id="0x2f0c" name="StaticIp" property="user" type="ipv4">
+				<Element name="Ip Address" property="user" size="1" type="ipv4">175839056</Element>
+				<Element name="Subnet Mask" property="user" size="1" type="ipv4">-512</Element>
+				<Element name="Gateway" property="user" size="1" type="ipv4">175838721</Element>
+			</Entry>
+			<Entry EntrySize="  8" id="0x2f0d" name="IpRoutes" property="user" type="ipv4">
+				<Category name="Route 0">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+				<Category name="Route 1">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+				<Category name="Route 2">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+				<Category name="Route 3">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+			</Entry>
+		</Category>
+		<Category name="Rain Sensor">
+			<Entry deviceSwitch="Collector;2" id="0x3f21" name="Enable" property="restricted" type="bool">1</Entry>
+			<Entry EntrySize="  5" id="0x4f22" name="Parameters" property="constant" type="uint8">
+				<Element name="PWM Frequency Tenth" property="constant" size="1" type="uint8">65</Element>
+				<Element name="PWM Duty Cycle" property="constant" size="1" type="uint8">25</Element>
+				<Element name="Interval" property="constant" size="1" type="uint8">12</Element>
+				<Element name="Dummy" property="constant" size="1" type="uint8">0</Element>
+				<Element name="Number of Hits" property="constant" size="1" type="uint8">3</Element>
+			</Entry>
+		</Category>
+		<Category name="I/O Expander">
+			<Entry deviceSwitch="Collector;5" id="0x3f31" name="Enable" property="restricted" type="bool">1</Entry>
+			<Entry EntrySize="  3" id="0x4f32" name="Pin Configuration" property="restricted" type="uint8">
+                <Element editor="bitmask" list="IOExpPins" name="Output Level (0:low, 1:high)" property="restricted" size="1" type="uint8">255</Element>
+                <Element editor="bitmask" list="IOExpPins" name="Polarity Inversion (0:high=1, 1:high=0)" property="restricted" size="1" type="uint8">129</Element>
+                <Element editor="bitmask" list="IOExpPins" name="Pin Direction (0:output, 1:input)" property="restricted" size="1" type="uint8">255</Element>
+            </Entry>
+			<Entry EntrySize=" 24" id="0x6f32" name="Status Bits" property="restricted" type="uint32">
+                <Category name="Pin 0">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="restricted" size="1" type="uint32">8</Element>
+                </Category>
+                <Category name="Pin 1">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="restricted" size="1" type="uint32">2097152</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="restricted" size="1" type="uint32">0</Element>
+                </Category>
+                <Category name="Pin 2">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="restricted" size="1" type="uint32">0</Element>
+                </Category>
+                <Category name="Pin 3">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="restricted" size="1" type="uint32">0</Element>
+                </Category>
+                <Category name="Pin 4">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="restricted" size="1" type="uint32">0</Element>
+                </Category>
+                <Category name="Pin 5">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="restricted" size="1" type="uint32">0</Element>
+                </Category>
+                <Category name="Pin 6">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="restricted" size="1" type="uint32">0</Element>
+                </Category>
+                <Category name="Pin 7">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="restricted" size="1" type="uint32">0</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="restricted" size="1" type="uint32">128</Element>
+                </Category>
+            </Entry>
+		</Category>
+		<Category name="LTE-Modem">
+			<Entry id="0x3f41" name="Enable" property="restricted" type="bool">0</Entry>
+			<Entry EntrySize="  5" id="0xcf42" name="SIM Pin" property="user" type="string"/>
+			<Entry EntrySize="  7" id="0xcf43" name="PLMN" property="user" type="string"/>
+			<Entry EntrySize=" 32" id="0xcf44" name="APN" property="user" type="string">internet.telekom</Entry>
+			<Entry EntrySize=" 32" id="0xcf4a" name="PPP Username" property="user" type="string"/>
+			<Entry EntrySize=" 32" id="0xcf4b" name="PPP Password" property="user" type="string"/>
+			<Entry EntrySize="  8" id="0x2f4d" name="IpRoutes" property="user" type="ipv4">
+				<Category name="Route 0">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+				<Category name="Route 1">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+				<Category name="Route 2">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+				<Category name="Route 3">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+			</Entry>
+		</Category>
+		<Category name="Radio-Modem">
+			<Entry id="0x3f51" name="Enable" property="restricted" type="bool">0</Entry>
+			<Entry EntrySize="  1" id="0x4f51" list="RadioTXPower" name="Radio TX Power Level" property="user" type="uint8">3</Entry>
+			<Entry EntrySize="  2" id="0x6f52" name="Destination Address" property="user" type="uint32">
+				<Element name="High" property="user" size="1" type="uint32">0</Element>
+				<Element name="Low" property="user" size="1" type="uint32">65535</Element>
+			</Entry>
+			<Entry EntrySize=" 16" id="0x4f52" name="Security Key (empty=off)" property="user" type="uint8">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</Entry>
+			<Entry EntrySize="  1" id="0x5f53" name="Listen Before Transmit Time (in 100ms, disable=0)" property="user" type="uint16">0</Entry>
+			<Entry EntrySize=" 32" id="0xcf5a" name="PPP Username" property="user" type="string">Anonymous</Entry>
+			<Entry EntrySize=" 32" id="0xcf5b" name="PPP Password" property="user" type="string">Anonymous</Entry>
+			<Entry EntrySize="  8" id="0x2f5d" name="IpRoutes" property="user" type="ipv4">
+				<Category name="Route 0">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+				<Category name="Route 1">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+				<Category name="Route 2">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+				<Category name="Route 3">
+					<Element name="Ip Address" property="user" size="1" type="ipv4">0</Element>
+					<Element name="Subnet Mask" property="user" size="1" type="ipv4">0</Element>
+				</Category>
+			</Entry>
+		</Category>
+		<Category name="GPS Module">
+			<Entry deviceSwitch="Collector;4" id="0x3f61" name="Enable" property="restricted" type="bool">1</Entry>
+			<Entry EntrySize="  1" id="0x6f62" name="Timeout" property="restricted" type="uint32">1500</Entry>
+		</Category>
+		<Category name="Uarts">
+			<Category name="Bluetooth">
+				<Entry EntrySize=" 17" id="0xcf72" name="PIN Code" property="user" type="string">0562</Entry>
+				<Entry EntrySize="  1" id="0x9f71" list="BTPower" name="Power Level" property="restricted" type="int16">16</Entry>
+			</Category>
+			<Entry EntrySize="  6" id="0x8ff1" name="Mapping" property="constant" type="int8">
+				<Element list="UartList" name="Radio Modem" property="constant" size="1" type="int8">0</Element>
+				<Element name="Uart 1" property="constant" size="1" type="int8">-1</Element>
+				<Element list="UartList" name="GPS Module" property="constant" size="1" type="int8">2</Element>
+				<Element name="RS485" property="constant" size="1" type="int8">3</Element>
+				<Element list="UartList" name="LTE Modem" property="constant" size="1" type="int8">4</Element>
+				<Element name="RS232" property="constant" size="1" type="int8">5</Element>
+			</Entry>
+			<Entry EntrySize="  6" id="0x6ff1" name="Baud Rates" property="constant" type="uint32">
+				<Element list="BaudRateList" name="Uart 0" property="constant" size="1" type="uint32">57600</Element>
+				<Element name="Uart 1" property="constant" size="1" type="uint32">0</Element>
+				<Element list="BaudRateList" name="Uart 2" property="constant" size="1" type="uint32">115200</Element>
+				<Element list="BaudRateList" name="Uart 3" property="constant" size="1" type="uint32">38400</Element>
+				<Element list="BaudRateList" name="Uart 4" property="constant" size="1" type="uint32">57600</Element>
+				<Element list="BaudRateList" name="Uart 5" property="constant" size="1" type="uint32">38400</Element>
+			</Entry>
+		</Category>
+	</Category>
+	<Category name="GDR">
+		<Entry EntrySize="  1" id="0xe5c3" name="Minimum Aggregation Ratio" property="user" size="1" type="float32">0.8</Entry>
+		<Entry EntrySize="  1" id="0xe5cf" name="Location Correction (uSv/h)" property="user" size="1" type="float32">0.0</Entry>
+		<Category name="Threshold Parameters">
+			<Entry EntrySize=" 16" id="0x05d1" name="Interval 0" property="user" type="struct">
+				<Element list="GDRThresholds" name="Number of Thresholds" property="user" size="1" type="int32">0</Element>
+				<Element name="Lower Threshold (uSv/h)" property="user" size="1" type="float32">0.3</Element>
+				<Element name="Upper Threshold (uSv/h)" property="user" size="1" type="float32">0.5</Element>
+				<Element name="Violation Time (min)" property="user" size="1" type="float32">1.0</Element>
+			</Entry>
+			<Entry EntrySize=" 16" id="0x05d2" name="Interval 1" property="user" type="struct">
+				<Element list="GDRThresholds" name="Number of Thresholds" property="user" size="1" type="int32">2</Element>
+				<Element name="Lower Threshold (uSv/h)" property="user" size="1" type="float32">0.2</Element>
+				<Element name="Upper Threshold (uSv/h)" property="user" size="1" type="float32">0.3</Element>
+				<Element name="Violation Time (min)" property="user" size="1" type="float32">8.0</Element>
+			</Entry>
+			<Entry EntrySize=" 16" id="0x05d3" name="Interval 2" property="user" type="struct">
+				<Element list="GDRThresholds" name="Number of Thresholds" property="user" size="1" type="int32">0</Element>
+				<Element name="Lower Threshold (uSv/h)" property="user" size="1" type="float32">0.2</Element>
+				<Element name="Upper Threshold (uSv/h)" property="user" size="1" type="float32">0.3</Element>
+				<Element name="Violation Time (min)" property="user" size="1" type="float32">48.0</Element>
+			</Entry>
+		</Category>
+		<Entry EntrySize="  4" id="0xe5c7" name="GDR Ranges" property="constant" type="float32">
+            <Element name="Med to Low (uSv/h)" property="constant" size="1" type="float32">2.5</Element>
+            <Element name="Low to Med (uSv/h)" property="constant" size="1" type="float32">25.0</Element>
+            <Element name="Hgh to Med (uSv/h)" property="constant" size="1" type="float32">170.0</Element>
+            <Element name="Med to Hgh (uSv/h)" property="constant" size="1" type="float32">225.0</Element>
+		</Entry>
+		<Category name="HD-Tube">
+			<Entry EntrySize="  2" id="0xe5c5" name="Calibration Parameters" property="constant" type="float32">
+				<Element name="Sensitivity (cpm / (uSv/h))" property="constant" size="1" type="float32">0.969489</Element>
+				<Element name="Dead Time Constant (min/cts)" property="constant" size="1" type="float32">6.7368705E-7</Element>
+			</Entry>
+			<Entry EntrySize="  5" id="0xe5cd" name="Self Effect" property="constant" type="float32">
+				<Element name="Parameter p0 / Intrinsic effect (uSv/h)" property="constant" size="1" type="float32">0.078</Element>
+				<Element name="Parameter p1 / Temperature Compensation (uSv/h/°C)" property="constant" size="1" type="float32">0.0085</Element>
+				<Element name="Parameter p2 / 0.0" property="constant" size="1" type="float32">0.0</Element>
+				<Element name="Parameter p3 / 0.0" property="constant" size="1" type="float32">0.0</Element>
+				<Element name="Parameter p4 / 0.0" property="constant" size="1" type="float32">0.0</Element>
+            </Entry>
+		</Category>
+		<Category name="LD-Tube">
+			<Entry EntrySize="  2" id="0xe5c6" name="Calibration Parameters" property="constant" type="float32">
+				<Element name="Sensitivity (cpm / (uSv/h))" property="constant" size="1" type="float32">809.4889</Element>
+				<Element name="Dead Time Constant (min/cts)" property="constant" size="1" type="float32">2.826249E-6</Element>
+			</Entry>
+			<Entry EntrySize="  5" id="0xe5ce" name="Self Effect" property="constant" type="float32">
+				<Element name="Parameter p0 / Intrinsic effect (uSv/h)" property="constant" size="1" type="float32">0.05154</Element>
+				<Element name="Parameter p1 / Temperature Compensation (uSv/h/°C)" property="constant" size="1" type="float32">-0.7526</Element>
+				<Element name="Parameter p2 / 0.0" property="constant" size="1" type="float32">-3.832E-5</Element>
+				<Element name="Parameter p3 / 0.0" property="constant" size="1" type="float32">-80.54</Element>
+				<Element name="Parameter p4 / 0.0" property="constant" size="1" type="float32">-0.01242</Element>
+            </Entry>
+		</Category>
+        <Category name="Self Tests">
+            <Category name="Minimum Criteria">
+                <Entry EntrySize="  2" id="0x95c5" name="HD" property="constant" type="int16">
+                    <Element name="Pulses (cts)" property="constant" size="1" type="int16">1</Element>
+                    <Element name="Test Time (min)" property="constant" size="1" type="int16">180</Element>
+                </Entry>
+                <Entry EntrySize="  2" id="0x95c6" name="LD" property="constant" type="int16">
+                    <Element name="Pulses (cts)" property="constant" size="1" type="int16">8</Element>
+                    <Element name="Test Time (min)" property="constant" size="1" type="int16">2</Element>
+                </Entry>
+            </Category>
+            <Entry EntrySize="  2" id="0x55cb" name="Plausibility Check" property="constant" type="uint16">
+                <Element name="Short Term Ratio R1" property="constant" size="1" type="uint16">15</Element>
+                <Element name="Long Term Ratio R3" property="constant" size="1" type="uint16">5</Element>
+            </Entry>
+        </Category>
+	</Category>
+	<Category name="Battery Monitor">
+		<Entry EntrySize=" 10" id="0xe509" name="Status Transitions" property="restricted" type="float32">
+			<Category name="Capacity">
+				<Element name="From Normal to Low (mAh)" property="restricted" size="1" type="float32">1000.0</Element>
+				<Element name="From Low to Normal (mAh)" property="restricted" size="1" type="float32">1200.0</Element>
+				<Element name="From Low to Serious (mAh)" property="restricted" size="1" type="float32">800.0</Element>
+				<Element name="From Serious to Low (mAh)" property="restricted" size="1" type="float32">1000.0</Element>
+				<Element name="From Serious to Critical (mAh)" property="restricted" size="1" type="float32">600.0</Element>
+				<Element name="From Critical to Serious (mAh)" property="restricted" size="1" type="float32">800.0</Element>
+			</Category>
+			<Category name="Voltage">
+				<Element name="From Normal to Low (V)" property="restricted" size="1" type="float32">3.92</Element>
+				<Element name="From Low to Normal (V)" property="restricted" size="1" type="float32">4.01</Element>
+				<Element name="From Low to Critical (V)" property="restricted" size="1" type="float32">3.85</Element>
+				<Element name="From Critical to Low (V)" property="restricted" size="1" type="float32">3.95</Element>
+			</Category>
+		</Entry>
+		<Entry EntrySize=" 41" id="0x0509" name="Parameters" property="restricted" type="struct">
+			<Element name="Nominal Battery Capacity (mAh)" property="restricted" size="1" type="float32">2500.0</Element>
+			<Element name="Maximum Voltage (V) (Battery full)" property="restricted" size="1" type="float32">4.24</Element>
+			<Element name="Minimum Voltage (V) (Battery empty; 0=ignore)" property="restricted" size="1" type="float32">0.0</Element>
+			<Element name="Average Current Usage (mA)" property="restricted" size="1" type="float32">-3.0</Element>
+			<Element name="Current Average Weighting" property="restricted" size="1" type="float32">0.05</Element>
+			<Category name="Trickle Charge">
+				<Element name="Current Limit (mA)" property="restricted" size="1" type="float32">6.0</Element>
+				<Element name="Current Average Weighting" property="restricted" size="1" type="float32">0.05</Element>
+			</Category>
+			<Category name="Open Circuit">
+				<Element name="Current Limit (mA)" property="restricted" size="1" type="float32">-5.4</Element>
+				<Element name="Current Peak Limit (mA)" property="restricted" size="1" type="float32">-20.0</Element>
+				<Element name="Capacity Weighting" property="restricted" size="1" type="float32">0.1</Element>
+				<Element name="Voltage Count" property="restricted" size="1" type="uint8">5</Element>
+			</Category>
+		</Entry>
+	</Category>
+	<Category name="Accuracy Test">
+		<Entry EntrySize="  1" id="0x550d" name="Duration of Test" property="user" type="uint16">600</Entry>
+		<Entry EntrySize="  1" id="0x550f" name="Duration of Reference Measurement" property="user" type="uint16">600</Entry>
+		<Entry EntrySize="  2" id="0x450d" name="Maximum Deviation in %" property="user" type="uint8">
+			<Element name="LD" property="restricted" size="1" type="uint8">10</Element>
+			<Element name="HD" property="restricted" size="1" type="uint8">40</Element>
+		</Entry>
+		<Entry EntrySize=" 96" id="0x050e" name="Global Test Parameters" property="user" type="struct">
+			<Element name="Location" property="user" size="32" type="string"/>
+			<Element name="Operator First Name" property="user" size="32" type="string"/>
+			<Element name="Operator Last Name" property="user" size="32" type="string"/>
+		</Entry>
+		<Category name="Test Source">
+			<Entry id="0x350f" name="Force Reference Measurement" property="user" type="bool">1</Entry>
+			<Entry EntrySize=" 48" id="0x050f" name="Source Parameters" property="user" type="struct">
+				<Element name="Unique Id" property="user" size="32" type="string"/>
+				<Element list="NuclideIds" name="Test Nuclide" property="restricted" size="1" type="int32">0</Element>
+				<Element name="Nuclide Information" property="restricted" size="12" type="struct">
+					<Element list="NuclideNames" name="Name" property="restricted" size="8" type="string">Cs-137</Element>
+					<Element list="NuclideHalfLifes" name="Half Life Time in seconds" property="restricted" size="1" type="uint32">1315056160</Element>
+				</Element>
+			</Entry>
+		</Category>
+	</Category>
+	<Category name="Storage">
+		<Category name="Ring Buffers">
+			<Category name="System">
+				<Category name="System Status">
+					<Entry EntrySize=" 16" id="0x0901" name="Definition" property="restricted" type="struct">
+						<Element name="Filename" property="constant" size="11" type="string">STSYS</Element>
+						<Element name="Data Definition" property="constant" size="1" type="uint32">0</Element>
+						<Element list="DirectoryLevels" name="Directory Level" property="restricted" size="1" type="int8">1</Element>
+					</Entry>
+					<Entry EntrySize="  1" id="0x9941" name="Size" property="restricted" type="int16">8</Entry>
+				</Category>
+				<Category name="GDR Evaluation Status">
+					<Entry EntrySize=" 16" id="0x0902" name="Definition" property="restricted" type="struct">
+						<Element name="Filename" property="constant" size="11" type="string">STGDR</Element>
+						<Element name="Data Definition" property="constant" size="1" type="uint32">0</Element>
+						<Element list="DirectoryLevels" name="Directory Level" property="restricted" size="1" type="int8">1</Element>
+					</Entry>
+					<Entry EntrySize="  1" id="0x9942" name="Size" property="restricted" type="int16">8</Entry>
+				</Category>
+			</Category>
+			<Category name="GDR">
+				<Category name="Interval 0">
+					<Entry EntrySize=" 16" id="0x0903" name="Definition" property="restricted" type="struct">
+						<Element name="Filename" property="constant" size="11" type="string">GDR_0</Element>
+						<Element name="Data Definition" property="constant" size="1" type="uint32">978670</Element>
+						<Element list="DirectoryLevels" name="Directory Level" property="restricted" size="1" type="int8">2</Element>
+					</Entry>
+					<Entry EntrySize="  1" id="0x9943" name="Size" property="restricted" type="int16">2</Entry>
+				</Category>
+				<Category name="Interval 1">
+					<Entry EntrySize=" 16" id="0x0904" name="Definition" property="restricted" type="struct">
+						<Element name="Filename" property="constant" size="11" type="string">GDR_1</Element>
+						<Element name="Data Definition" property="constant" size="1" type="uint32">978670</Element>
+						<Element list="DirectoryLevels" name="Directory Level" property="restricted" size="1" type="int8">2</Element>
+					</Entry>
+					<Entry EntrySize="  1" id="0x9944" name="Size" property="restricted" type="int16">2</Entry>
+				</Category>
+				<Category name="Interval 2">
+					<Entry EntrySize=" 16" id="0x0905" name="Definition" property="restricted" type="struct">
+						<Element name="Filename" property="constant" size="11" type="string">GDR_2</Element>
+						<Element name="Data Definition" property="constant" size="1" type="uint32">978670</Element>
+						<Element list="DirectoryLevels" name="Directory Level" property="restricted" size="1" type="int8">1</Element>
+					</Entry>
+					<Entry EntrySize="  1" id="0x9945" name="Size" property="restricted" type="int16">2</Entry>
+				</Category>
+			</Category>
+			<Category name="Battery Monitor">
+				<Category name="Interval 1">
+					<Entry EntrySize=" 16" id="0x0906" name="Definition" property="restricted" type="struct">
+						<Element name="Filename" property="constant" size="11" type="string">BAT</Element>
+						<Element name="Data Definition" property="constant" size="1" type="uint32">3820</Element>
+						<Element list="DirectoryLevels" name="Directory Level" property="restricted" size="1" type="int8">2</Element>
+					</Entry>
+					<Entry EntrySize="  1" id="0x9946" name="Size" property="restricted" type="int16">2</Entry>
+				</Category>
+			</Category>
+			<Category name="GPS">
+				<Category name="Data">
+					<Entry EntrySize=" 16" id="0x0907" name="Definition" property="restricted" type="struct">
+						<Element name="Filename" property="constant" size="11" type="string">GPS</Element>
+						<Element name="Data Definition" property="constant" size="1" type="uint32">3822</Element>
+						<Element list="DirectoryLevels" name="Directory Level" property="restricted" size="1" type="int8">0</Element>
+					</Entry>
+					<Entry EntrySize="  1" id="0x9947" name="Size" property="restricted" type="int16">2</Entry>
+				</Category>
+			</Category>
+			<Entry EntrySize=" 12" id="0xc900" name="Base Directory" property="constant" type="string">a:\MD</Entry>
+		</Category>
+	</Category>
+	<Category name="Communication">
+		<Entry EntrySize="  1" id="0x45fd" name="Connection Retries" property="user" type="uint8">0</Entry>
+		<Entry EntrySize="  4" id="0x25fe" name="Time Servers" property="user" type="ipv4">
+			<Element name="Time Server 0" property="user" size="1" type="ipv4">184222772</Element>
+			<Element name="Time Server 1" property="user" size="1" type="ipv4">0</Element>
+			<Element name="Time Server 2" property="user" size="1" type="ipv4">0</Element>
+			<Element name="Time Server 3" property="user" size="1" type="ipv4">0</Element>
+		</Entry>
+		<Category name="Central Connection Information">
+			<Category name="Central 0">
+				<Entry id="0x35e1" name="Enable" property="user" type="bool">1</Entry>
+				<Entry EntrySize="  5" id="0x65e1" name="Communication Time" property="user" type="uint32">
+					<Element editor="time" name="Time Offset" property="user" size="1" type="uint32">0</Element>
+					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+					<Element editor="time" name="Time Window Size (disabled=0)" property="user" size="1" type="uint32">0</Element>
+				</Entry>
+				<Entry EntrySize="3" id="0x65e3" name="Spontaneous Calls" property="user" type="uint32">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="user" size="1" type="uint32">2646153</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="user" size="1" type="uint32">53675968</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="user" size="1" type="uint32">143</Element>
+				</Entry>
+				<Entry EntrySize=" 68" id="0x05e2" name="Device List" property="user" type="struct">
+					<Category name="Device 0">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">0</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">184223147</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">184222772</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 1">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 2">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 3">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+				</Entry>
+			</Category>
+			<Category name="Central 1">
+				<Entry id="0x35e5" name="Enable" property="user" type="bool">0</Entry>
+				<Entry EntrySize="  5" id="0x65e5" name="Communication Time" property="user" type="uint32">
+					<Element editor="time" name="Time Offset" property="user" size="1" type="uint32">0</Element>
+					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+					<Element editor="time" name="Time Window Size (disabled=0)" property="user" size="1" type="uint32">0</Element>
+				</Entry>
+				<Entry EntrySize="3" id="0x65e7" name="Spontaneous Calls" property="user" type="uint32">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="user" size="1" type="uint32">2646153</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="user" size="1" type="uint32">53675968</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="user" size="1" type="uint32">143</Element>
+				</Entry>
+				<Entry EntrySize=" 68" id="0x05e6" name="Device List" property="user" type="struct">
+					<Category name="Device 0">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">0</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">-1062694522</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 1">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 2">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 3">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+				</Entry>
+			</Category>
+			<Category name="Central 2">
+				<Entry id="0x35e9" name="Enable" property="user" type="bool">0</Entry>
+				<Entry EntrySize="  5" id="0x65e9" name="Communication Time" property="user" type="uint32">
+					<Element editor="time" name="Time Offset" property="user" size="1" type="uint32">0</Element>
+					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+					<Element editor="time" name="Time Window Size (disabled=0)" property="user" size="1" type="uint32">0</Element>
+				</Entry>
+				<Entry EntrySize="3" id="0x65eb" name="Spontaneous Calls" property="user" type="uint32">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="user" size="1" type="uint32">2646153</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="user" size="1" type="uint32">53675968</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="user" size="1" type="uint32">143</Element>
+				</Entry>
+				<Entry EntrySize=" 68" id="0x05ea" name="Device List" property="user" type="struct">
+					<Category name="Device 0">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">0</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">-1062694522</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 1">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 2">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 3">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+				</Entry>
+			</Category>
+			<Category name="Central 3">
+				<Entry id="0x35ed" name="Enable" property="user" type="bool">0</Entry>
+				<Entry EntrySize="  5" id="0x65ed" name="Communication Time" property="user" type="uint32">
+					<Element editor="time" name="Time Offset" property="user" size="1" type="uint32">0</Element>
+					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+					<Element editor="time" name="Time Window Size (disabled=0)" property="user" size="1" type="uint32">0</Element>
+				</Entry>
+				<Entry EntrySize="3" id="0x65ef" name="Spontaneous Calls" property="user" type="uint32">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="user" size="1" type="uint32">2646153</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="user" size="1" type="uint32">53675968</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="user" size="1" type="uint32">143</Element>
+				</Entry>
+				<Entry EntrySize=" 68" id="0x05ee" name="Device List" property="user" type="struct">
+					<Category name="Device 0">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">0</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">-1062694522</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 1">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">2</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">-1062694522</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 2">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 3">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+				</Entry>
+			</Category>
+			<Category name="Central 4">
+				<Entry id="0x35f1" name="Enable" property="user" type="bool">0</Entry>
+				<Entry EntrySize="  5" id="0x65f1" name="Communication Time" property="user" type="uint32">
+					<Element editor="time" name="Time Offset" property="user" size="1" type="uint32">0</Element>
+					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+					<Element editor="time" name="Time Window Size (disabled=0)" property="user" size="1" type="uint32">0</Element>
+				</Entry>
+				<Entry EntrySize="3" id="0x65f3" name="Spontaneous Calls" property="user" type="uint32">
+					<Element editor="bitmask" list="StatusBits" name="System Status" property="user" size="1" type="uint32">2646153</Element>
+					<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="user" size="1" type="uint32">53675968</Element>
+					<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="user" size="1" type="uint32">143</Element>
+				</Entry>
+				<Entry EntrySize=" 68" id="0x05f2" name="Device List" property="user" type="struct">
+					<Category name="Device 0">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">0</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">-1062694522</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 1">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">1</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">1388475662</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 2">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+					<Category name="Device 3">
+						<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+						<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+						<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+						<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+					</Category>
+				</Entry>
+			</Category>
+			<Category name="Special">
+				<Category name="Updater">
+					<Entry EntrySize="  5" id="0x65f5" name="Communication Time" property="restricted" type="uint32">
+						<Element editor="time" name="Time Offset" property="restricted" size="1" type="uint32">0</Element>
+						<Element editor="time" name="Repeat Base" property="restricted" size="1" type="uint32">10</Element>
+						<Element editor="time" name="Repeat On Success" property="restricted" size="1" type="uint32">20</Element>
+						<Element editor="time" name="Repeat On Failure" property="restricted" size="1" type="uint32">30</Element>
+						<Element editor="time" name="Time Window Size (disabled=0)" property="restricted" size="1" type="uint32">0</Element>
+					</Entry>
+					<Entry EntrySize="3" id="0x65f7" name="Spontaneous Calls" property="restricted" type="uint32">
+						<Element editor="bitmask" list="StatusBits" name="System Status" property="restricted" size="1" type="uint32">1</Element>
+						<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="restricted" size="1" type="uint32">0</Element>
+						<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="restricted" size="1" type="uint32">0</Element>
+					</Entry>
+					<Entry EntrySize=" 68" id="0x05f6" name="Device List" property="user" type="struct">
+						<Category name="Device 0">
+							<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">0</Element>
+							<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2038890497</Element>
+							<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">184223147</Element>
+							<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">184222772</Element>
+							<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+						</Category>
+						<Category name="Device 1">
+							<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+							<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2038890497</Element>
+							<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">1388475662</Element>
+							<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+						</Category>
+						<Category name="Device 2">
+							<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+							<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2038890497</Element>
+							<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">1388475662</Element>
+							<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+						</Category>
+						<Category name="Device 3">
+							<Element list="Communicator" name="Device Id" property="user" size="1" type="uint8">255</Element>
+							<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="restricted" size="1" type="uint32">2031616001</Element>
+							<Element name="TCP/IP: IP Address / Serial: Address Low" property="user" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="user" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="user" size="1" type="uint32">21000</Element>
+						</Category>
+					</Entry>
+				</Category>
+				<Category name="Service Mode">
+					<Entry EntrySize="  5" id="0x65f9" name="Communication Time" property="constant" type="uint32">
+						<Element editor="time" name="Time Offset" property="constant" size="1" type="uint32">4294967295</Element>
+						<Element editor="time" name="Repeat Base" property="constant" size="1" type="uint32">4294967295</Element>
+						<Element editor="time" name="Repeat On Success" property="constant" size="1" type="uint32">4294967295</Element>
+						<Element editor="time" name="Repeat On Failure" property="constant" size="1" type="uint32">4294967295</Element>
+						<Element editor="time" name="Time Window Size (disabled=0)" property="constant" size="1" type="uint32">0</Element>
+					</Entry>
+					<Entry EntrySize="3" id="0x65fb" name="Spontaneous Calls" property="constant" type="uint32">
+						<Element editor="bitmask" list="StatusBits" name="System Status" property="constant" size="1" type="uint32">2</Element>
+						<Element editor="bitmask" list="EvalBits" name="GDR Evaluation Status" property="constant" size="1" type="uint32">0</Element>
+						<Element editor="bitmask" list="BatteryBits" name="Battery Status" property="constant" size="1" type="uint32">0</Element>
+					</Entry>
+					<Entry EntrySize=" 68" id="0x05fa" name="Device List" property="constant" type="struct">
+						<Category name="Device 0">
+							<Element list="Communicator" name="Device Id" property="constant" size="1" type="uint8">82</Element>
+							<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="constant" size="1" type="uint32">10</Element>
+							<Element name="TCP/IP: IP Address / Serial: Address Low" property="constant" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="constant" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="constant" size="1" type="uint32">115200</Element>
+						</Category>
+						<Category name="Device 1">
+							<Element list="Communicator" name="Device Id" property="constant" size="1" type="uint8">255</Element>
+							<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="constant" size="1" type="uint32">10</Element>
+							<Element name="TCP/IP: IP Address / Serial: Address Low" property="constant" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="constant" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="constant" size="1" type="uint32">38400</Element>
+						</Category>
+						<Category name="Device 2">
+							<Element list="Communicator" name="Device Id" property="constant" size="1" type="uint8">255</Element>
+							<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="constant" size="1" type="uint32">10</Element>
+							<Element name="TCP/IP: IP Address / Serial: Address Low" property="constant" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="constant" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="constant" size="1" type="uint32">38400</Element>
+						</Category>
+						<Category name="Device 3">
+							<Element list="Communicator" name="Device Id" property="constant" size="1" type="uint8">255</Element>
+							<Element list="Port/SerialAH" name="TCP/IP: Port / Serial: Address High" property="constant" size="1" type="uint32">10</Element>
+							<Element name="TCP/IP: IP Address / Serial: Address Low" property="constant" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Server Ip / Serial: Destination Ip" property="constant" size="1" type="ipv4">0</Element>
+							<Element name="TCP/IP: SNTP Timeout (ms) / Serial: Baud Rate" property="constant" size="1" type="uint32">38400</Element>
+						</Category>
+					</Entry>
+				</Category>
+			</Category>
+		</Category>
+	</Category>
+	<Entry EntrySize=" 16" id="0x5702" isTaskList="true" name="Task List" property="internal" type="uint16">1440 1444 1448 1452 1472 1284 1288 1532 1292 65535 65535 65535 65535 65535 65535 65535</Entry>
+	<Entry id="0xd100" name="End" property="internal" type="end"/>
+</ConfigurationEntries>

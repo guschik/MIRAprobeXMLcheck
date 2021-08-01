@@ -1,0 +1,1825 @@
+Only in stations/: 30290
+diff -r stations/30304/ConfigV1.5.6ExpriviaN.xml modified_stations/30304/ConfigV1.5.6ExpriviaN.xml
+318c318
+< 				<Element name="Gateway" property="user" size="1" type="ipv4">168562177</Element>
+---
+> 				<Element name="Gateway" property="user" size="1" type="ipv4">175836673</Element>
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30392/ConfigV1.5.6ExpriviaN.xml modified_stations/30392/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30393/ConfigV1.5.6ExpriviaN.xml modified_stations/30393/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30395/ConfigV1.5.6ExpriviaN.xml modified_stations/30395/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+Only in stations/: 30396
+diff -r stations/30398/ConfigV1.5.6ExpriviaN.xml modified_stations/30398/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30404/ConfigV1.5.6ExpriviaN.xml modified_stations/30404/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30416/ConfigV1.5.6ExpriviaN.xml modified_stations/30416/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30418/ConfigV1.5.6ExpriviaN.xml modified_stations/30418/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30419/ConfigV1.5.6ExpriviaN.xml modified_stations/30419/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30428/ConfigV1.5.6ExpriviaN.xml modified_stations/30428/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30432/ConfigV1.5.6ExpriviaN.xml modified_stations/30432/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30433/ConfigV1.5.6ExpriviaN.xml modified_stations/30433/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30441/ConfigV1.5.6ExpriviaN.xml modified_stations/30441/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30442/ConfigV1.5.6ExpriviaN.xml modified_stations/30442/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30443/ConfigV1.5.6ExpriviaN.xml modified_stations/30443/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30444/ConfigV1.5.6ExpriviaN.xml modified_stations/30444/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30445/ConfigV1.5.6ExpriviaN.xml modified_stations/30445/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30446/ConfigV1.5.6ExpriviaN.xml modified_stations/30446/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30447/ConfigV1.5.6ExpriviaN.xml modified_stations/30447/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30448/ConfigV1.5.6ExpriviaN.xml modified_stations/30448/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30449/ConfigV1.5.6ExpriviaN.xml modified_stations/30449/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30450/ConfigV1.5.6ExpriviaN.xml modified_stations/30450/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30451/ConfigV1.5.6ExpriviaN.xml modified_stations/30451/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30452/ConfigV1.5.6ExpriviaN.xml modified_stations/30452/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30453/ConfigV1.5.6ExpriviaN.xml modified_stations/30453/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30454/ConfigV1.5.6ExpriviaN.xml modified_stations/30454/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30455/ConfigV1.5.6ExpriviaN.xml modified_stations/30455/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30456/ConfigV1.5.6ExpriviaN.xml modified_stations/30456/ConfigV1.5.6ExpriviaN.xml
+316c316
+< 				<Element name="Ip Address" property="user" size="1" type="ipv4">167772438</Element>
+---
+> 				<Element name="Ip Address" property="user" size="1" type="ipv4">-1062731184</Element>
+318c318
+< 				<Element name="Gateway" property="user" size="1" type="ipv4">167772161</Element>
+---
+> 				<Element name="Gateway" property="user" size="1" type="ipv4">-1062731775</Element>
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30457/ConfigV1.5.6ExpriviaN.xml modified_stations/30457/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30458/ConfigV1.5.6ExpriviaN.xml modified_stations/30458/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30459/ConfigV1.5.6ExpriviaN.xml modified_stations/30459/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30460/ConfigV1.5.6ExpriviaN.xml modified_stations/30460/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30461/ConfigV1.5.6ExpriviaN.xml modified_stations/30461/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30462/ConfigV1.5.6ExpriviaN.xml modified_stations/30462/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30463/ConfigV1.5.6ExpriviaN.xml modified_stations/30463/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30464/ConfigV1.5.6ExpriviaN.xml modified_stations/30464/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30465/ConfigV1.5.6ExpriviaN.xml modified_stations/30465/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30466/ConfigV1.5.6ExpriviaN.xml modified_stations/30466/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30467/ConfigV1.5.6ExpriviaN.xml modified_stations/30467/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30468/ConfigV1.5.6ExpriviaN.xml modified_stations/30468/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30469/ConfigV1.5.6ExpriviaN.xml modified_stations/30469/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30470/ConfigV1.5.6ExpriviaN.xml modified_stations/30470/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30471/ConfigV1.5.6ExpriviaN.xml modified_stations/30471/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30472/ConfigV1.5.6ExpriviaN.xml modified_stations/30472/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30473/ConfigV1.5.6ExpriviaN.xml modified_stations/30473/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30474/ConfigV1.5.6ExpriviaN.xml modified_stations/30474/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30475/ConfigV1.5.6ExpriviaN.xml modified_stations/30475/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30476/ConfigV1.5.6ExpriviaN.xml modified_stations/30476/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30477/ConfigV1.5.6ExpriviaN.xml modified_stations/30477/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30478/ConfigV1.5.6ExpriviaN.xml modified_stations/30478/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30479/ConfigV1.5.6ExpriviaN.xml modified_stations/30479/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30480/ConfigV1.5.6ExpriviaN.xml modified_stations/30480/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30481/ConfigV1.5.6ExpriviaN.xml modified_stations/30481/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30482/ConfigV1.5.6ExpriviaN.xml modified_stations/30482/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30483/ConfigV1.5.6ExpriviaN.xml modified_stations/30483/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30484/ConfigV1.5.6ExpriviaN.xml modified_stations/30484/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30485/ConfigV1.5.6ExpriviaN.xml modified_stations/30485/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30486/ConfigV1.5.6ExpriviaN.xml modified_stations/30486/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30487/ConfigV1.5.6ExpriviaN.xml modified_stations/30487/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30488/ConfigV1.5.6ExpriviaN.xml modified_stations/30488/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+Only in stations/: 30489
+diff -r stations/30490/ConfigV1.5.6ExpriviaN.xml modified_stations/30490/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30491/ConfigV1.5.6ExpriviaN.xml modified_stations/30491/ConfigV1.5.6ExpriviaN.xml
+316,318c316,318
+< 				<Element name="Ip Address" property="user" size="1" type="ipv4">176894544</Element>
+< 				<Element name="Subnet Mask" property="user" size="1" type="ipv4">-512</Element>
+< 				<Element name="Gateway" property="user" size="1" type="ipv4">176894465</Element>
+---
+> 				<Element name="Ip Address" property="user" size="1" type="ipv4">-1062731184</Element>
+> 				<Element name="Subnet Mask" property="user" size="1" type="ipv4">-65536</Element>
+> 				<Element name="Gateway" property="user" size="1" type="ipv4">-1062731775</Element>
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30492/ConfigV1.5.6ExpriviaN.xml modified_stations/30492/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30493/ConfigV1.5.6ExpriviaN.xml modified_stations/30493/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30494/ConfigV1.5.6ExpriviaN.xml modified_stations/30494/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30497/ConfigV1.5.6ExpriviaN.xml modified_stations/30497/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30498/ConfigV1.5.6ExpriviaN.xml modified_stations/30498/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30499/ConfigV1.5.6ExpriviaN.xml modified_stations/30499/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30500/ConfigV1.5.6ExpriviaN.xml modified_stations/30500/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30501/ConfigV1.5.6ExpriviaN.xml modified_stations/30501/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30502/ConfigV1.5.6ExpriviaN.xml modified_stations/30502/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30503/ConfigV1.5.6ExpriviaN.xml modified_stations/30503/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30504/ConfigV1.5.6ExpriviaN.xml modified_stations/30504/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30505/ConfigV1.5.6ExpriviaN.xml modified_stations/30505/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30506/ConfigV1.5.6ExpriviaN.xml modified_stations/30506/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30507/ConfigV1.5.6ExpriviaN.xml modified_stations/30507/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30508/ConfigV1.5.6ExpriviaN.xml modified_stations/30508/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30509/ConfigV1.5.6ExpriviaN.xml modified_stations/30509/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30511/ConfigV1.5.6ExpriviaN.xml modified_stations/30511/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30512/ConfigV1.5.6ExpriviaN.xml modified_stations/30512/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30513/ConfigV1.5.6ExpriviaN.xml modified_stations/30513/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30514/ConfigV1.5.6ExpriviaN.xml modified_stations/30514/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30515/ConfigV1.5.6ExpriviaN.xml modified_stations/30515/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30516/ConfigV1.5.6ExpriviaN.xml modified_stations/30516/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30517/ConfigV1.5.6ExpriviaN.xml modified_stations/30517/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30518/ConfigV1.5.6ExpriviaN.xml modified_stations/30518/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30519/ConfigV1.5.6ExpriviaN.xml modified_stations/30519/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30520/ConfigV1.5.6ExpriviaN.xml modified_stations/30520/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30521/ConfigV1.5.6ExpriviaN.xml modified_stations/30521/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30523/ConfigV1.5.6ExpriviaN.xml modified_stations/30523/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30524/ConfigV1.5.6ExpriviaN.xml modified_stations/30524/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30525/ConfigV1.5.6ExpriviaN.xml modified_stations/30525/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30526/ConfigV1.5.6ExpriviaN.xml modified_stations/30526/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30527/ConfigV1.5.6ExpriviaN.xml modified_stations/30527/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30528/ConfigV1.5.6ExpriviaN.xml modified_stations/30528/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30529/ConfigV1.5.6ExpriviaN.xml modified_stations/30529/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30530/ConfigV1.5.6ExpriviaN.xml modified_stations/30530/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30531/ConfigV1.5.6ExpriviaN.xml modified_stations/30531/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30535/ConfigV1.5.6ExpriviaN.xml modified_stations/30535/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30536/ConfigV1.5.6ExpriviaN.xml modified_stations/30536/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30539/ConfigV1.5.6ExpriviaN.xml modified_stations/30539/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30540/ConfigV1.5.6ExpriviaN.xml modified_stations/30540/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30541/ConfigV1.5.6ExpriviaN.xml modified_stations/30541/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30542/ConfigV1.5.6ExpriviaN.xml modified_stations/30542/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30544/ConfigV1.5.6ExpriviaN.xml modified_stations/30544/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30545/ConfigV1.5.6ExpriviaN.xml modified_stations/30545/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30546/ConfigV1.5.6ExpriviaN.xml modified_stations/30546/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30547/ConfigV1.5.6ExpriviaN.xml modified_stations/30547/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30548/ConfigV1.5.6ExpriviaN.xml modified_stations/30548/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30549/ConfigV1.5.6ExpriviaN.xml modified_stations/30549/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30550/ConfigV1.5.6ExpriviaN.xml modified_stations/30550/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30551/ConfigV1.5.6ExpriviaN.xml modified_stations/30551/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30554/ConfigV1.5.6ExpriviaN.xml modified_stations/30554/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30555/ConfigV1.5.6ExpriviaN.xml modified_stations/30555/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30556/ConfigV1.5.6ExpriviaN.xml modified_stations/30556/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30557/ConfigV1.5.6ExpriviaN.xml modified_stations/30557/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30558/ConfigV1.5.6ExpriviaN.xml modified_stations/30558/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30559/ConfigV1.5.6ExpriviaN.xml modified_stations/30559/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30560/ConfigV1.5.6ExpriviaN.xml modified_stations/30560/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30561/ConfigV1.5.6ExpriviaN.xml modified_stations/30561/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30562/ConfigV1.5.6ExpriviaN.xml modified_stations/30562/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30563/ConfigV1.5.6ExpriviaN.xml modified_stations/30563/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30564/ConfigV1.5.6ExpriviaN.xml modified_stations/30564/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30565/ConfigV1.5.6ExpriviaN.xml modified_stations/30565/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30566/ConfigV1.5.6ExpriviaN.xml modified_stations/30566/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30570/ConfigV1.5.6ExpriviaN.xml modified_stations/30570/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30573/ConfigV1.5.6ExpriviaN.xml modified_stations/30573/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30580/ConfigV1.5.6ExpriviaN.xml modified_stations/30580/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30581/ConfigV1.5.6ExpriviaN.xml modified_stations/30581/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30582/ConfigV1.5.6ExpriviaN.xml modified_stations/30582/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30583/ConfigV1.5.6ExpriviaN.xml modified_stations/30583/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30585/ConfigV1.5.6ExpriviaN.xml modified_stations/30585/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30586/ConfigV1.5.6ExpriviaN.xml modified_stations/30586/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30587/ConfigV1.5.6ExpriviaN.xml modified_stations/30587/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30588/ConfigV1.5.6ExpriviaN.xml modified_stations/30588/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30590/ConfigV1.5.6ExpriviaN.xml modified_stations/30590/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30591/ConfigV1.5.6ExpriviaN.xml modified_stations/30591/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30592/ConfigV1.5.6ExpriviaN.xml modified_stations/30592/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30593/ConfigV1.5.6ExpriviaN.xml modified_stations/30593/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30594/ConfigV1.5.6ExpriviaN.xml modified_stations/30594/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30595/ConfigV1.5.6ExpriviaN.xml modified_stations/30595/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30597/ConfigV1.5.6ExpriviaN.xml modified_stations/30597/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30598/ConfigV1.5.6ExpriviaN.xml modified_stations/30598/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30599/ConfigV1.5.6ExpriviaN.xml modified_stations/30599/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30600/ConfigV1.5.6ExpriviaN.xml modified_stations/30600/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30601/ConfigV1.5.6ExpriviaN.xml modified_stations/30601/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30602/ConfigV1.5.6ExpriviaN.xml modified_stations/30602/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30604/ConfigV1.5.6ExpriviaN.xml modified_stations/30604/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30606/ConfigV1.5.6ExpriviaN.xml modified_stations/30606/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30608/ConfigV1.5.6ExpriviaN.xml modified_stations/30608/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30609/ConfigV1.5.6ExpriviaN.xml modified_stations/30609/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30610/ConfigV1.5.6ExpriviaN.xml modified_stations/30610/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30611/ConfigV1.5.6ExpriviaN.xml modified_stations/30611/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30612/ConfigV1.5.6ExpriviaN.xml modified_stations/30612/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30614/ConfigV1.5.6ExpriviaN.xml modified_stations/30614/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30615/ConfigV1.5.6ExpriviaN.xml modified_stations/30615/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30616/ConfigV1.5.6ExpriviaN.xml modified_stations/30616/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30617/ConfigV1.5.6ExpriviaN.xml modified_stations/30617/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30618/ConfigV1.5.6ExpriviaN.xml modified_stations/30618/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30619/ConfigV1.5.6ExpriviaN.xml modified_stations/30619/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30620/ConfigV1.5.6ExpriviaN.xml modified_stations/30620/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30622/ConfigV1.5.6ExpriviaN.xml modified_stations/30622/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30623/ConfigV1.5.6ExpriviaN.xml modified_stations/30623/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30624/ConfigV1.5.6ExpriviaN.xml modified_stations/30624/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30625/ConfigV1.5.6ExpriviaN.xml modified_stations/30625/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30626/ConfigV1.5.6ExpriviaN.xml modified_stations/30626/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30627/ConfigV1.5.6ExpriviaN.xml modified_stations/30627/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30628/ConfigV1.5.6ExpriviaN.xml modified_stations/30628/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30629/ConfigV1.5.6ExpriviaN.xml modified_stations/30629/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30630/ConfigV1.5.6ExpriviaN.xml modified_stations/30630/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30631/ConfigV1.5.6ExpriviaN.xml modified_stations/30631/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30632/ConfigV1.5.6ExpriviaN.xml modified_stations/30632/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30633/ConfigV1.5.6ExpriviaN.xml modified_stations/30633/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30634/ConfigV1.5.6ExpriviaN.xml modified_stations/30634/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+Only in stations/: 30636
+diff -r stations/30637/ConfigV1.5.6ExpriviaN.xml modified_stations/30637/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30638/ConfigV1.5.6ExpriviaN.xml modified_stations/30638/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30639/ConfigV1.5.6ExpriviaN.xml modified_stations/30639/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30640/ConfigV1.5.6ExpriviaN.xml modified_stations/30640/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+Only in stations/: 30641
+diff -r stations/30643/ConfigV1.5.6ExpriviaN.xml modified_stations/30643/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30644/ConfigV1.5.6ExpriviaN.xml modified_stations/30644/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30645/ConfigV1.5.6ExpriviaN.xml modified_stations/30645/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30646/ConfigV1.5.6ExpriviaN.xml modified_stations/30646/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30647/ConfigV1.5.6ExpriviaN.xml modified_stations/30647/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30648/ConfigV1.5.6ExpriviaN.xml modified_stations/30648/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30649/ConfigV1.5.6ExpriviaN.xml modified_stations/30649/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30650/ConfigV1.5.6ExpriviaN.xml modified_stations/30650/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30651/ConfigV1.5.6ExpriviaN.xml modified_stations/30651/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30652/ConfigV1.5.6ExpriviaN.xml modified_stations/30652/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30653/ConfigV1.5.6ExpriviaN.xml modified_stations/30653/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30655/ConfigV1.5.6ExpriviaN.xml modified_stations/30655/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30656/ConfigV1.5.6ExpriviaN.xml modified_stations/30656/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30657/ConfigV1.5.6ExpriviaN.xml modified_stations/30657/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30658/ConfigV1.5.6ExpriviaN.xml modified_stations/30658/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30659/ConfigV1.5.6ExpriviaN.xml modified_stations/30659/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30660/ConfigV1.5.6ExpriviaN.xml modified_stations/30660/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30661/ConfigV1.5.6ExpriviaN.xml modified_stations/30661/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30662/ConfigV1.5.6ExpriviaN.xml modified_stations/30662/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30663/ConfigV1.5.6ExpriviaN.xml modified_stations/30663/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30664/ConfigV1.5.6ExpriviaN.xml modified_stations/30664/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>
+diff -r stations/30665/ConfigV1.5.6ExpriviaN.xml modified_stations/30665/ConfigV1.5.6ExpriviaN.xml
+695,697c695,697
+< 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">300</Element>
+< 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">7200</Element>
+< 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">1800</Element>
+---
+> 					<Element editor="time" name="Repeat Base" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Success" property="user" size="1" type="uint32">60</Element>
+> 					<Element editor="time" name="Repeat On Failure" property="user" size="1" type="uint32">60</Element>

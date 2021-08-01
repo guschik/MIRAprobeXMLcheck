@@ -1,0 +1,30 @@
+Info    : Check starting.
+Info    : App path: "D:/Progetti/OCRA/OCRA-DEV/ocra/devices/apps/ocra-tools/qMiraProbeXMLCheck/build-qMiraProbeXMLCheck-Desktop_Qt_5_12_1_MSVC2017_64bit-Debug/debug/../../"
+Info    : Begin reading Exprivia probe configurations
+Info    : Reading Exprivia probe configurations done ( 200  found).
+Critical: Cannot check Envinet's configuration station file dir 30290: corresponding  Exprivia configuration not found.
+Warning : probe  30304  - Wrong "Gateway" , expected:  "10.123.14.1"  got: "10.12.14.1"  (FIXING!)
+Critical: Cannot check Envinet's configuration station file dir 30396: corresponding  Exprivia configuration not found.
+Warning : probe  30456  - Wrong "Ip Address" , expected:  "192.168.2.80"  got: "10.0.1.22"  (FIXING!)
+Warning : probe  30456  - Wrong "Gateway" , expected:  "192.168.0.1"  got: "10.0.0.1"  (FIXING!)
+Critical: Cannot check Envinet's configuration station file dir 30489: corresponding  Exprivia configuration not found.
+Warning : probe  30491  - Wrong "Ip Address" , expected:  "192.168.2.80"  got: "10.139.50.80"  (FIXING!)
+Warning : probe  30491  - Wrong "Subnet Mask" , expected:  "255.255.0.0"  got: "255.255.254.0"  (FIXING!)
+Warning : probe  30491  - Wrong "Gateway" , expected:  "192.168.0.1"  got: "10.139.50.1"  (FIXING!)
+Critical: Cannot check Envinet's configuration station file dir 30636: corresponding  Exprivia configuration not found.
+Critical: Cannot check Envinet's configuration station file dir 30641: corresponding  Exprivia configuration not found.
+Info    : --------------------------------------------------------------------------------
+Info    : Summary
+Info    : --------------------------------------------------------------------------------
+Info    : Configuration switches
+Info    :     EXPRIVIA_CHECK_TIME_INTERVALS: "OFF"
+Info    :     EXPRIVIA_CHECK_SERVICE_MODE  : "OFF"
+Info    : XML filenames
+Info    :     input : "ConfigV1.5.6ExpriviaN.xml"
+Info    :     output: "ConfigV1.5.6ExpriviaN.xml"
+Info    : Total Envinet configurations (dir/file) processed: 205
+Info    :    Skipped because of invalid Envinet Probe Serial (dir name): 0
+Info    :    Skipped because of no corresponding Exprivia configuration: 5
+Info    :    Failed to parse/handle configuration XML file (please see reason above): 0
+Info    :    Fixed (failed parameters check) to corresponding dir/file in 'modified_stations': 3
+Info    : Check done.
